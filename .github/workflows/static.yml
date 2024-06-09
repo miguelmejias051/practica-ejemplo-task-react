@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: practica-ejemplo-task-react
-      url: ${{ https://github.com/miguelmejias051/practica-ejemplo-task-react }}
+      url: ${{ miguelmejias051.github.io/practica-ejemplo-task-react }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
