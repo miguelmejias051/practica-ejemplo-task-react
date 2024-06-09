@@ -24,7 +24,7 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: practica-ejemplo-task-react
+      name: github-pages
       url: ${{ miguelmejias051.github.io/practica-ejemplo-task-react }}
     runs-on: ubuntu-latest
     steps:
